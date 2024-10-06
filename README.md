@@ -27,15 +27,14 @@ The primary goal is to reduce the cost of equipment used for transformer oil ana
 ## Getting Started
 
 ### Prerequisites
-- **Hardware**: Raspberry Pi, Light Source (LED or laser), Oil Sample Holder,Diffraction Grating,Oil Samples
+- **Hardware**: Light Source (LED or laser), Oil Sample Holder,Diffraction Grating,Oil Samples,Webcam
 - **Software**: Python, TensorFlow, Keras, Firebase
 
 
 
 ### Hardware Setup
-- Connect the light sensor to the Raspberry Pi.
-- Set up the light source and position the oil sample in the light path.
-- Connect the sensor to capture the light that passes through the oil sample and send the data to the Raspberry Pi.
+- Position the Light Source perfectly so that maximum light passes through the oil sample
+- Connect the sensor(Webcam) to capture the light that passes through the oil sample and send the data to the software.
 
 ## Machine Learning Model
 The deep learning model is trained to classify oil samples based on the spectral data. The model utilizes convolutional neural networks (CNNs) to identify features that indicate aging in transformer oil.
@@ -44,3 +43,8 @@ The deep learning model is trained to classify oil samples based on the spectral
 - Collect spectral data from various oil samples at different aging stages.
 - Preprocess the data using **NumPy** and **Pandas**.
 - Train the model using **TensorFlow** and **Keras**.
+
+### Predictions
+
+-After training the model,test the accuracy of the algorithm by testing it on newer samples
+-The model was found to efficiently identify and categorize different stages of aging of transformer oils
