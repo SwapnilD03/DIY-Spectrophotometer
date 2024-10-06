@@ -46,5 +46,5 @@ The deep learning model is trained to classify oil samples based on the spectral
 
 ### Predictions
 
--After training the model,test the accuracy of the algorithm by testing it on newer samples
--The model was found to efficiently identify and categorize different stages of aging of transformer oils
+-After training the model,test the accuracy of the algorithm by testing it on newer samples.
+-The model was found to efficiently identify and categorize different stages of aging of transformer oils.
